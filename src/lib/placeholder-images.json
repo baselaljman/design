@@ -1,3 +1,88 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Main Hero Background Image",
+      "imageUrl": "https://xn--ogbhrq.vip/wp-content/uploads/2026/02/onecarre.jpeg",
+      "imageHint": "luxury car workshop"
+    },
+    {
+      "id": "service-bodywork",
+      "description": "Car Bodywork Service",
+      "imageUrl": "https://picsum.photos/seed/101/600/400",
+      "imageHint": "car bodywork"
+    },
+    {
+      "id": "service-painting",
+      "description": "Car Painting Service",
+      "imageUrl": "https://picsum.photos/seed/102/600/400",
+      "imageHint": "car painting"
+    },
+    {
+      "id": "service-mechanic",
+      "description": "Car Mechanic Service",
+      "imageUrl": "https://picsum.photos/seed/103/600/400",
+      "imageHint": "car engine"
+    },
+    {
+      "id": "service-electricity",
+      "description": "Car Electricity Service",
+      "imageUrl": "https://picsum.photos/seed/104/600/400",
+      "imageHint": "car dashboard"
+    },
+    {
+      "id": "service-ac",
+      "description": "Car AC Service",
+      "imageUrl": "https://picsum.photos/seed/105/600/400",
+      "imageHint": "car air conditioning"
+    },
+    {
+      "id": "service-airbag",
+      "description": "Airbag Repair Service",
+      "imageUrl": "https://picsum.photos/seed/106/600/400",
+      "imageHint": "car airbag"
+    },
+    {
+      "id": "service-renewal",
+      "description": "Car Renewal Service",
+      "imageUrl": "https://picsum.photos/seed/107/600/400",
+      "imageHint": "luxury car detail"
+    },
+    {
+      "id": "ba-1-before",
+      "description": "Before repair case 1",
+      "imageUrl": "https://picsum.photos/seed/201/600/400",
+      "imageHint": "damaged car door"
+    },
+    {
+      "id": "ba-1-after",
+      "description": "After repair case 1",
+      "imageUrl": "https://picsum.photos/seed/202/600/400",
+      "imageHint": "fixed car door"
+    },
+    {
+      "id": "ba-2-before",
+      "description": "Before repair case 2",
+      "imageUrl": "https://picsum.photos/seed/203/600/400",
+      "imageHint": "scratched car fender"
+    },
+    {
+      "id": "ba-2-after",
+      "description": "After repair case 2",
+      "imageUrl": "https://picsum.photos/seed/204/600/400",
+      "imageHint": "shiny car fender"
+    },
+    {
+      "id": "ba-3-before",
+      "description": "Before repair case 3",
+      "imageUrl": "https://picsum.photos/seed/205/600/400",
+      "imageHint": "broken car bumper"
+    },
+    {
+      "id": "ba-3-after",
+      "description": "After repair case 3",
+      "imageUrl": "https://picsum.photos/seed/206/600/400",
+      "imageHint": "new car bumper"
+    }
+  ]
 }
