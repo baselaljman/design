@@ -43,6 +43,7 @@ export default function RootLayout({
     "@id": "",
     "url": "https://design-riyadh.sa",
     "telephone": "+966533112111",
+    "hasMap": "https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "صناعية الشمال",
@@ -53,8 +54,8 @@ export default function RootLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 24.7136,
-      "longitude": 46.6753
+      "latitude": 24.8193,
+      "longitude": 46.6122
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

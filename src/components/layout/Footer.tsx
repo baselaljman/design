@@ -55,7 +55,14 @@ export function Footer() {
             <ul className="space-y-6 text-white/70">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#FDD60C] shrink-0" />
-                <span>الرياض، صناعية الشمال، حي القيروان</span>
+                <a 
+                  href="https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  الرياض، صناعية الشمال، حي القيروان
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-[#FDD60C] shrink-0" />
