@@ -71,12 +71,12 @@ export const beforeAfterCases = [
 export const carBrands = [
   { name: 'Mercedes', logo: 'https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png' },
   { name: 'BMW', logo: 'https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo.png' },
+  { name: 'Porsche', logo: 'https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo.png' },
   { name: 'Audi' },
   { name: 'Lexus' },
   { name: 'Toyota' },
   { name: 'Nissan' },
   { name: 'Honda' },
-  { name: 'Porsche' },
   { name: 'Land Rover' },
   { name: 'GMC' }
 ];
