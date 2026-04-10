@@ -76,7 +76,7 @@ export const carBrands = [
   { name: 'Toyota', logo: 'https://1000logos.net/wp-content/uploads/2021/04/Toyota-logo.png' },
   { name: 'Hyundai', logo: 'https://1000logos.net/wp-content/uploads/2018/04/Hyundai-Logo.png' },
   { name: 'Nissan', logo: 'https://1000logos.net/wp-content/uploads/2020/03/nissan-logo.png' },
-  { name: 'Audi' },
+  { name: 'Audi', logo: 'https://1000logos.net/wp-content/uploads/2018/05/Audi-Logo-2009.jpg' },
   { name: 'Lexus' },
   { name: 'Honda' },
   { name: 'Land Rover' },
