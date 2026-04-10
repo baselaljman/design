@@ -62,15 +62,15 @@
     },
     {
       "id": "ba-2-before",
-      "description": "Before repair case 2",
-      "imageUrl": "https://picsum.photos/seed/203/600/400",
-      "imageHint": "scratched car fender"
+      "description": "Before repair case 2 - Lexus RX Front Bumper",
+      "imageUrl": "https://i.postimg.cc/3NkVMjYh/سيارة_ليكزس_RX_متضررة_في_ورشة_الصيانة.png",
+      "imageHint": "damaged lexus bumper"
     },
     {
       "id": "ba-2-after",
-      "description": "After repair case 2",
-      "imageUrl": "https://picsum.photos/seed/204/600/400",
-      "imageHint": "shiny car fender"
+      "description": "After repair case 2 - Lexus RX Front Bumper",
+      "imageUrl": "https://i.postimg.cc/7Jym025s/سيارة_لكزس_RX_داخل_ورشة_تصليح.png",
+      "imageHint": "fixed lexus bumper"
     },
     {
       "id": "ba-3-before",
