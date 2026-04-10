@@ -46,7 +46,7 @@ export default function RootLayout({
     "hasMap": "https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "صناعية الشمال",
+      "streetAddress": "الصناعية القديمة",
       "addressLocality": "الرياض",
       "addressRegion": "الرياض",
       "postalCode": "11564",
@@ -54,8 +54,8 @@ export default function RootLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 24.8193,
-      "longitude": 46.6122
+      "latitude": 24.6333,
+      "longitude": 46.7333
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

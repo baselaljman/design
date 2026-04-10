@@ -61,7 +61,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  الرياض، صناعية الشمال، حي القيروان
+                  الرياض، الصناعية القديمة
                 </a>
               </li>
               <li className="flex items-center gap-3">
