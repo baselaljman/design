@@ -80,6 +80,7 @@ export const carBrands = [
   { name: 'Genesis', logo: 'https://1000logos.net/wp-content/uploads/2021/03/Genesis-logo.png' },
   { name: 'Nissan', logo: 'https://1000logos.net/wp-content/uploads/2020/03/nissan-logo.png' },
   { name: 'Audi', logo: 'https://1000logos.net/wp-content/uploads/2018/05/Audi-Logo-2009.jpg' },
+  { name: 'Changan', logo: 'https://1000logos.net/wp-content/uploads/2021/03/changan-logo.png' },
   { name: 'Lexus' },
   { name: 'Honda' },
   { name: 'Land Rover' },
