@@ -27,8 +27,8 @@
     {
       "id": "service-electricity",
       "description": "Car Electricity Service",
-      "imageUrl": "https://picsum.photos/seed/104/600/400",
-      "imageHint": "car dashboard"
+      "imageUrl": "https://i.postimg.cc/pr37P9Ln/فحص_النظام_الكهربائي_للسيارة.png",
+      "imageHint": "car electricity diagnostic"
     },
     {
       "id": "service-ac",
