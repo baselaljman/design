@@ -21,7 +21,11 @@ export function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 overflow-hidden border-none bg-white">
+            <Card 
+              key={index} 
+              id={service.id}
+              className="group hover:shadow-xl transition-all duration-300 overflow-hidden border-none bg-white scroll-mt-20"
+            >
               <div className="relative h-48 w-full overflow-hidden">
                 <Image 
                   src={service.image || `https://picsum.photos/seed/${index}/600/400`}

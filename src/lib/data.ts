@@ -4,42 +4,49 @@ import { PlaceHolderImages } from './placeholder-images';
 
 export const services = [
   {
+    id: 'bodywork',
     title: 'سمكرة سيارات',
     description: 'إصلاح جميع صدمات الهيكل بأحدث التقنيات والمعدات الاحترافية لضمان عودة السيارة لحالتها الأصلية.',
     icon: Wrench,
     image: PlaceHolderImages.find(img => img.id === 'service-bodywork')?.imageUrl,
   },
   {
+    id: 'painting',
     title: 'رش بوية فرن',
     description: 'دهان حراري بأعلى معايير الجودة مع مطابقة الألوان بالكمبيوتر لضمان لمسة نهائية مثالية.',
     icon: Paintbrush,
     image: PlaceHolderImages.find(img => img.id === 'service-painting')?.imageUrl,
   },
   {
+    id: 'renewal',
     title: 'تجديد كامل',
     description: 'إعادة إحياء وتجديد السيارات القديمة والمتضررة كلياً داخلياً وخارجياً.',
     icon: RefreshCcw,
     image: PlaceHolderImages.find(img => img.id === 'service-renewal')?.imageUrl,
   },
   {
+    id: 'airbag',
     title: 'إصلاح الأيرباق',
     description: 'فحص وإصلاح وبرمجة أنظمة الأكياس الهوائية (Airbags) لضمان سلامة الركاب.',
     icon: ShieldAlert,
     image: PlaceHolderImages.find(img => img.id === 'service-airbag')?.imageUrl,
   },
   {
+    id: 'mechanic',
     title: 'ميكانيكا عامة',
     description: 'صيانة المحركات وناقل الحركة وجميع الأجزاء الميكانيكية بأيدي فنيين متخصصين.',
     icon: Settings,
     image: PlaceHolderImages.find(img => img.id === 'service-mechanic')?.imageUrl,
   },
   {
+    id: 'electricity',
     title: 'كهرباء السيارات',
     description: 'فحص وتشخيص وإصلاح جميع الأعطال الكهربائية المعقدة وبرمجة الحساسات.',
     icon: Zap,
     image: PlaceHolderImages.find(img => img.id === 'service-electricity')?.imageUrl,
   },
   {
+    id: 'ac',
     title: 'صيانة التكييف',
     description: 'فحص تسريب الفريون، شحن الفريون الأصلي، وإصلاح الكومبريسور والرديتر.',
     icon: Thermometer,

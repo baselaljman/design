@@ -44,8 +44,8 @@ export function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">
               {services.map((service) => (
-                <DropdownMenuItem key={service.title} asChild>
-                  <Link href={`#services`} className="w-full cursor-pointer">{service.title}</Link>
+                <DropdownMenuItem key={service.id} asChild>
+                  <Link href={`#${service.id}`} className="w-full cursor-pointer">{service.title}</Link>
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
@@ -55,7 +55,9 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button variant="default" className="hidden md:flex">احجز موعدك</Button>
+          <Button variant="default" className="hidden md:flex" asChild>
+            <a href="tel:+966533112111">احجز موعدك</a>
+          </Button>
           
           {/* Mobile Nav */}
           <Sheet>
@@ -74,13 +76,21 @@ export function Header() {
                   <span className="text-lg font-medium">خدماتنا</span>
                   <div className="grid grid-cols-1 gap-1 pr-4">
                     {services.map((service) => (
-                      <Link key={service.title} href="#services" className="text-muted-foreground py-1 border-r-2 border-primary/20 pr-3">{service.title}</Link>
+                      <Link 
+                        key={service.id} 
+                        href={`#${service.id}`} 
+                        className="text-muted-foreground py-1 border-r-2 border-primary/20 pr-3"
+                      >
+                        {service.title}
+                      </Link>
                     ))}
                   </div>
                 </div>
                 <Link href="#before-after" className="text-lg font-medium border-b pb-2">قبل وبعد</Link>
                 <Link href="#features" className="text-lg font-medium border-b pb-2">لماذا نحن؟</Link>
-                <Button className="w-full mt-4">اتصل الآن</Button>
+                <Button className="w-full mt-4" asChild>
+                  <a href="tel:+966533112111">اتصل الآن</a>
+                </Button>
               </div>
             </SheetContent>
           </Sheet>
