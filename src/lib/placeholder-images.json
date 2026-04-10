@@ -50,15 +50,15 @@
     },
     {
       "id": "ba-1-before",
-      "description": "Before repair case 1",
-      "imageUrl": "https://picsum.photos/seed/201/600/400",
-      "imageHint": "damaged car door"
+      "description": "Before repair case 1 - Mercedes Side Impact",
+      "imageUrl": "https://i.postimg.cc/WzxKsD1r/سيارة_مرسيدس_متضررة_في_ورشة_إصلاح_(1).png",
+      "imageHint": "damaged mercedes"
     },
     {
       "id": "ba-1-after",
-      "description": "After repair case 1",
-      "imageUrl": "https://picsum.photos/seed/202/600/400",
-      "imageHint": "fixed car door"
+      "description": "After repair case 1 - Mercedes Side Impact",
+      "imageUrl": "https://i.postimg.cc/HnFKTJkd/مرسيدس_بنز_في_ورشة_إصلاح_محترفة.png",
+      "imageHint": "fixed mercedes"
     },
     {
       "id": "ba-2-before",
