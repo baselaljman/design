@@ -1,4 +1,3 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
     siteName: 'ديزاين الرياض',
     images: [
       {
-        url: 'https://xn--ogbhrq.vip/wp-content/uploads/2026/02/onecarre.jpeg',
+        url: 'https://i.postimg.cc/zvTBzNXw/desinbanar.jpg',
         width: 1200,
         height: 630,
         alt: 'مركز ديزاين الرياض لصيانة السيارات',
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ديزاين الرياض - خبراء صيانة السيارات',
     description: 'صيانة احترافية، سمكرة، ودهان سيارات في قلب الرياض.',
-    images: ['https://xn--ogbhrq.vip/wp-content/uploads/2026/02/onecarre.jpeg'],
+    images: ['https://i.postimg.cc/zvTBzNXw/desinbanar.jpg'],
   },
 };
 
@@ -40,7 +39,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "AutomotiveBusiness",
     "name": "ديزاين الرياض لصيانة السيارات",
-    "image": "https://xn--ogbhrq.vip/wp-content/uploads/2026/02/onecarre.jpeg",
+    "image": "https://i.postimg.cc/zvTBzNXw/desinbanar.jpg",
     "@id": "",
     "url": "https://design-riyadh.sa",
     "telephone": "+966500000000",

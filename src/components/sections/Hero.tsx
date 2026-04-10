@@ -1,18 +1,20 @@
-
 "use client";
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Phone, MessageSquare } from 'lucide-react';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
+  const heroBg = PlaceHolderImages.find(img => img.id === 'hero-bg')?.imageUrl || 'https://i.postimg.cc/zvTBzNXw/desinbanar.jpg';
+
   return (
     <section className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center">
       {/* Background with panoramic animation */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-no-repeat animate-pan-y"
         style={{ 
-          backgroundImage: `url('https://xn--ogbhrq.vip/wp-content/uploads/2026/02/onecarre.jpeg')`,
+          backgroundImage: `url('${heroBg}')`,
           backgroundSize: '120% 120%',
         }}
         role="img"
