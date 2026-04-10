@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -9,7 +8,7 @@ export function FloatingContact() {
     <div className="fixed bottom-6 left-6 z-[60] flex flex-col gap-4">
       {/* Phone Button */}
       <a 
-        href="tel:+966500000000"
+        href="tel:+966533112111"
         className="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 animate-bounce"
         aria-label="Call Us"
       >
@@ -18,7 +17,7 @@ export function FloatingContact() {
       
       {/* WhatsApp Button */}
       <a 
-        href="https://wa.me/966500000000"
+        href="https://wa.me/966533112111"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300"

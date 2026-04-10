@@ -42,7 +42,7 @@ export default function RootLayout({
     "image": "https://i.postimg.cc/zvTBzNXw/desinbanar.jpg",
     "@id": "",
     "url": "https://design-riyadh.sa",
-    "telephone": "+966500000000",
+    "telephone": "+966533112111",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "صناعية الشمال",

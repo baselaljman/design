@@ -33,11 +33,15 @@ export function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 w-full sm:w-auto">
-            <Phone className="ml-2 h-5 w-5" /> اتصل بنا الآن
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 w-full sm:w-auto">
+            <a href="tel:+966533112111">
+              <Phone className="ml-2 h-5 w-5" /> اتصل بنا الآن
+            </a>
           </Button>
-          <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white text-lg px-8 py-6 w-full sm:w-auto backdrop-blur-sm">
-            <MessageSquare className="ml-2 h-5 w-5" /> تواصل عبر واتساب
+          <Button asChild size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white text-lg px-8 py-6 w-full sm:w-auto backdrop-blur-sm">
+            <a href="https://wa.me/966533112111" target="_blank" rel="noopener noreferrer">
+              <MessageSquare className="ml-2 h-5 w-5" /> تواصل عبر واتساب
+            </a>
           </Button>
         </div>
       </div>

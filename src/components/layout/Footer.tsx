@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -60,7 +59,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-[#FDD60C] shrink-0" />
-                <span dir="ltr">+966 50 000 0000</span>
+                <span dir="ltr">0533112111</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#FDD60C] shrink-0" />
