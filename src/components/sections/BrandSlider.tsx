@@ -2,6 +2,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { carBrands } from '@/lib/data';
 
 export function BrandSlider() {
@@ -13,9 +14,22 @@ export function BrandSlider() {
       <div className="relative flex overflow-x-hidden">
         <div className="py-4 animate-marquee whitespace-nowrap flex gap-16 items-center">
           {[...carBrands, ...carBrands].map((brand, i) => (
-            <span key={i} className="text-3xl md:text-5xl font-black text-gray-200 hover:text-primary transition-colors cursor-default">
-              {brand}
-            </span>
+            <div key={i} className="inline-flex items-center gap-4">
+              {brand.logo ? (
+                <div className="relative w-32 h-16 grayscale hover:grayscale-0 transition-all opacity-40 hover:opacity-100">
+                  <Image 
+                    src={brand.logo} 
+                    alt={brand.name} 
+                    fill 
+                    className="object-contain"
+                  />
+                </div>
+              ) : (
+                <span className="text-3xl md:text-5xl font-black text-gray-200 hover:text-primary transition-colors cursor-default uppercase">
+                  {brand.name}
+                </span>
+              )}
+            </div>
           ))}
         </div>
       </div>
@@ -25,7 +39,7 @@ export function BrandSlider() {
           100% { transform: translateX(50%); }
         }
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 40s linear infinite;
         }
       `}</style>
     </section>

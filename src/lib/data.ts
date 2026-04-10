@@ -69,7 +69,16 @@ export const beforeAfterCases = [
 ];
 
 export const carBrands = [
-  'BMW', 'Mercedes', 'Audi', 'Lexus', 'Toyota', 'Nissan', 'Honda', 'Porsche', 'Land Rover', 'GMC'
+  { name: 'Mercedes', logo: 'https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png' },
+  { name: 'BMW' },
+  { name: 'Audi' },
+  { name: 'Lexus' },
+  { name: 'Toyota' },
+  { name: 'Nissan' },
+  { name: 'Honda' },
+  { name: 'Porsche' },
+  { name: 'Land Rover' },
+  { name: 'GMC' }
 ];
 
 export const features = [
