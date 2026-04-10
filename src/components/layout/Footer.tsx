@@ -17,7 +17,7 @@ export function Footer() {
               <span className="text-2xl font-bold tracking-tight">ديزاين الرياض</span>
             </Link>
             <p className="text-white/70 leading-relaxed">
-              مركزنا الرائد في الرياض لصيانة السيارات بأعلى المعايير العالمية، نفخر بخدمتكم وتوفير أفضل النتائج الممكنة.
+              مركزنا الرائد في الرياض لصيانة السيارات بأعلى المعايير العالمية، نفخر بخدمتكم وتوفير أفضل النتائج الممكنة في السمكرة والدهان.
             </p>
             <div className="flex gap-4">
               <div className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors cursor-pointer">
@@ -30,12 +30,12 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-bold mb-6">روابط سريعة</h4>
+            <h4 className="text-xl font-bold mb-6">روابط هامة</h4>
             <ul className="space-y-4 text-white/70">
               <li><Link href="/" className="hover:text-white transition-colors">الرئيسية</Link></li>
+              <li><Link href="/privacy" className="hover:text-white transition-colors">سياسة الخصوصية</Link></li>
+              <li><Link href="/terms" className="hover:text-white transition-colors">شروط الخدمة</Link></li>
               <li><Link href="#services" className="hover:text-white transition-colors">خدماتنا</Link></li>
-              <li><Link href="#before-after" className="hover:text-white transition-colors">قبل وبعد</Link></li>
-              <li><Link href="#features" className="hover:text-white transition-colors">لماذا نحن؟</Link></li>
             </ul>
           </div>
 

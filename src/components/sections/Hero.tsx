@@ -18,7 +18,7 @@ export function Hero() {
           backgroundSize: '120% 120%',
         }}
         role="img"
-        aria-label="ورشة صيانة سيارات فاخرة"
+        aria-label="أفضل مركز سمكرة ودهان سيارات في الرياض"
       />
       <div className="absolute inset-0 z-10 bg-black/50" />
       
@@ -26,21 +26,21 @@ export function Hero() {
         <h1 className="text-4xl md:text-7xl font-bold mb-6 tracking-tight text-white leading-tight">
           مركز <span className="text-[#FDD60C] glow-yellow">ديزاين الرياض</span>
           <br />
-          لصيانة السيارات
+          لسمكرة ودهان السيارات
         </h1>
         <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto">
-          دقة في السمكرة، إبداع في الدهان، واحترافية في الميكانيكا. سيارتك في أيدٍ أمينة مع ضمان 5 سنوات.
+          الخيار الأول للسمكرة والدهان في الرياض. جودة لا تضاهى، مطابقة ألوان بالكمبيوتر، وضمان 5 سنوات على جميع الأعمال.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 w-full sm:w-auto">
             <a href="tel:+966533112111">
-              <Phone className="ml-2 h-5 w-5" /> اتصل بنا الآن
+              <Phone className="ml-2 h-5 w-5" /> اتصل بنا للحصول على عرض سعر
             </a>
           </Button>
           <Button asChild size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white/20 text-white text-lg px-8 py-6 w-full sm:w-auto backdrop-blur-sm">
             <a href="https://wa.me/966533112111" target="_blank" rel="noopener noreferrer">
-              <MessageSquare className="ml-2 h-5 w-5" /> تواصل عبر واتساب
+              <MessageSquare className="ml-2 h-5 w-5" /> استفسر عبر الواتساب
             </a>
           </Button>
         </div>

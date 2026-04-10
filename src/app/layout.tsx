@@ -3,12 +3,15 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'ديزاين الرياض | مركز صيانة سيارات متكامل - سمكرة ودهان وميكانيكا',
-  description: 'أفضل مركز صيانة سيارات في الرياض متخصص في السمكرة والدهان، تجديد السيارات، إصلاح الأيرباق، والميكانيكا. نضمن لك الجودة العالية ومطابقة الألوان بالكمبيوتر.',
-  keywords: 'سمكرة سيارات الرياض, ورشة دهان سيارات, إصلاح أيرباق, ميكانيكا سيارات الرياض, تجديد سيارات, ديزاين الرياض',
+  title: 'ديزاين الرياض | أفضل مركز سمكرة ودهان سيارات في الرياض - ضمان 5 سنوات',
+  description: 'مركز ديزاين الرياض المتخصص في سمكرة ودهان السيارات بالكمبيوتر، إصلاح الصدمات، رش مطفي ولمعة، ميكانيكا، وكهرباء السيارات. جودة الوكالة مع ضمان معتمد.',
+  keywords: 'سمكرة سيارات الرياض، ورشة دهان سيارات، رش بوية فرن، إصلاح صدمات، تجديد سيارات، ميكانيكا سيارات، كهرباء سيارات، مركز ديزاين الرياض، صيانة سيارات الرياض، ورشة سمكرة محترفة',
+  alternates: {
+    canonical: 'https://design-riyadh.sa',
+  },
   openGraph: {
-    title: 'ديزاين الرياض - خبراء صيانة السيارات',
-    description: 'مركزنا في الرياض يقدم خدمات السمكرة والدهان والميكانيكا بأعلى جودة مع ضمان 5 سنوات.',
+    title: 'ديزاين الرياض - خبراء السمكرة والدهان وصيانة السيارات',
+    description: 'نقدم خدمات السمكرة والدهان والميكانيكا بأعلى جودة مع ضمان 5 سنوات في الرياض.',
     url: 'https://design-riyadh.sa',
     siteName: 'ديزاين الرياض',
     images: [
@@ -24,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ديزاين الرياض - خبراء صيانة السيارات',
-    description: 'صيانة احترافية، سمكرة، ودهان سيارات في قلب الرياض.',
+    title: 'ديزاين الرياض - أفضل مركز سمكرة ودهان سيارات',
+    description: 'صيانة احترافية، سمكرة، ودهان سيارات في قلب الرياض مع ضمان 5 سنوات.',
     images: ['https://i.postimg.cc/zvTBzNXw/desinbanar.jpg'],
   },
 };
@@ -37,12 +40,13 @@ export default function RootLayout({
 }>) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "AutomotiveBusiness",
+    "@type": "AutoRepair",
     "name": "ديزاين الرياض لصيانة السيارات",
     "image": "https://i.postimg.cc/zvTBzNXw/desinbanar.jpg",
-    "@id": "",
+    "@id": "https://design-riyadh.sa",
     "url": "https://design-riyadh.sa",
     "telephone": "+966533112111",
+    "priceRange": "$$",
     "hasMap": "https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7",
     "address": {
       "@type": "PostalAddress",
@@ -69,7 +73,8 @@ export default function RootLayout({
       ],
       "opens": "08:00",
       "closes": "21:00"
-    }
+    },
+    "description": "أفضل مركز متخصص في سمكرة ودهان السيارات في الرياض مع ضمان 5 سنوات ومطابقة ألوان بالكمبيوتر."
   };
 
   return (
