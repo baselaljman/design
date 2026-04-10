@@ -74,15 +74,15 @@
     },
     {
       "id": "ba-3-before",
-      "description": "Before repair case 3",
-      "imageUrl": "https://picsum.photos/seed/205/600/400",
-      "imageHint": "broken car bumper"
+      "description": "Before repair case 3 - BMW 3 Series Rear Damage",
+      "imageUrl": "https://i.postimg.cc/fyVp47DZ/BMW_3_سيريز_بأضرار_جسيمة_في_ورشة.png",
+      "imageHint": "damaged bmw rear"
     },
     {
       "id": "ba-3-after",
-      "description": "After repair case 3",
-      "imageUrl": "https://picsum.photos/seed/206/600/400",
-      "imageHint": "new car bumper"
+      "description": "After repair case 3 - BMW 3 Series Rear Restoration",
+      "imageUrl": "https://i.postimg.cc/T1KF8jfX/سيارة_بي_إم_دبليو_بيضاء_بعد_الإصلاح.png",
+      "imageHint": "fixed bmw rear"
     }
   ]
 }
