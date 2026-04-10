@@ -16,7 +16,7 @@ export function BrandSlider() {
           {[...carBrands, ...carBrands].map((brand, i) => (
             <div key={i} className="inline-flex items-center gap-4">
               {brand.logo ? (
-                <div className="relative w-32 h-16 grayscale hover:grayscale-0 transition-all opacity-40 hover:opacity-100">
+                <div className="relative w-32 h-16 transition-all duration-300 hover:scale-110 flex items-center justify-center">
                   <Image 
                     src={brand.logo} 
                     alt={brand.name} 
@@ -25,7 +25,7 @@ export function BrandSlider() {
                   />
                 </div>
               ) : (
-                <span className="text-3xl md:text-5xl font-black text-gray-200 hover:text-primary transition-colors cursor-default uppercase">
+                <span className="text-3xl md:text-5xl font-black text-primary/60 hover:text-primary transition-colors cursor-default uppercase">
                   {brand.name}
                 </span>
               )}
