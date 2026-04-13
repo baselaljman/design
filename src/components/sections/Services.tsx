@@ -9,6 +9,7 @@ import { services } from '@/lib/data';
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -50,6 +51,10 @@ export function Services() {
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl p-0 overflow-hidden bg-black border-none">
+                  <DialogHeader className="sr-only">
+                    <DialogTitle>{service.title}</DialogTitle>
+                    <DialogDescription>{service.description}</DialogDescription>
+                  </DialogHeader>
                   <div className="relative w-full h-[60vh] md:h-[80vh]">
                     <Image 
                       src={service.image || `https://picsum.photos/seed/${index}/1200/800`}
