@@ -6,6 +6,13 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { services } from '@/lib/data';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 
 export function Services() {
   return (
@@ -26,19 +33,37 @@ export function Services() {
               id={service.id}
               className="group hover:shadow-xl transition-all duration-300 overflow-hidden border-none bg-white scroll-mt-20"
             >
-              <div className="relative h-48 w-full overflow-hidden">
-                <Image 
-                  src={service.image || `https://picsum.photos/seed/${index}/600/400`}
-                  alt={service.title}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  data-ai-hint="car repair"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <div className="absolute bottom-4 right-4 bg-primary p-3 rounded-full glow-primary">
-                  <service.icon className="h-6 w-6 text-white" />
-                </div>
-              </div>
+              <Dialog>
+                <DialogTrigger asChild>
+                  <div className="relative h-48 w-full overflow-hidden cursor-zoom-in">
+                    <Image 
+                      src={service.image || `https://picsum.photos/seed/${index}/600/400`}
+                      alt={service.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
+                      data-ai-hint="car repair"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <div className="absolute bottom-4 right-4 bg-primary p-3 rounded-full glow-primary">
+                      <service.icon className="h-6 w-6 text-white" />
+                    </div>
+                  </div>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl p-0 overflow-hidden bg-black border-none">
+                  <div className="relative w-full h-[60vh] md:h-[80vh]">
+                    <Image 
+                      src={service.image || `https://picsum.photos/seed/${index}/1200/800`}
+                      alt={service.title}
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent text-white">
+                    <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                    <p className="text-sm opacity-90">{service.description}</p>
+                  </div>
+                </DialogContent>
+              </Dialog>
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-primary">{service.title}</CardTitle>
               </CardHeader>
