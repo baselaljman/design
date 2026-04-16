@@ -95,6 +95,13 @@ export default function RootLayout({
           `}
         </Script>
         
+        {/* Event snippet for مشاهدة صفحة conversion page */}
+        <Script id="google-conversion-tag" strategy="afterInteractive">
+          {`
+            gtag('event', 'conversion', {'send_to': 'AW-18086622285/PFOKCKf2j50cEM3or7BD'});
+          `}
+        </Script>
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
