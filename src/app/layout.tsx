@@ -46,7 +46,7 @@ export default function RootLayout({
     "image": "https://i.postimg.cc/zvTBzNXw/desinbanar.jpg",
     "@id": "https://design-riyadh.sa",
     "url": "https://design-riyadh.sa",
-    "telephone": "+966504390007",
+    "telephone": "0504390007",
     "priceRange": "$$",
     "hasMap": "https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7",
     "address": {

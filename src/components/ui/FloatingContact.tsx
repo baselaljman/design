@@ -24,7 +24,7 @@ export function FloatingContact() {
 
       {/* Phone Button - Permanently Extended & Pulsing */}
       <a 
-        href="tel:+966504390007"
+        href="tel:0504390007"
         className="flex items-center gap-3 bg-primary text-white rounded-full px-5 py-3 shadow-2xl hover:scale-105 transition-all duration-300 animate-pulse border border-white/20"
         aria-label="Call Us"
       >

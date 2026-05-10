@@ -34,7 +34,7 @@ export function Hero() {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 w-full sm:w-auto shadow-lg shadow-primary/20">
-            <a href="tel:+966504390007">
+            <a href="tel:0504390007">
               <Phone className="ml-2 h-5 w-5" /> اتصل بنا للحصول على عرض سعر
             </a>
           </Button>
