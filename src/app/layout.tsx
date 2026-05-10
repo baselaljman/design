@@ -77,12 +77,12 @@ export const metadata: Metadata = {
     'مركز ديزاين لصيانة السيارات', 'خدمات صيانة سيارات متكاملة'
   ].join(', '),
   alternates: {
-    canonical: 'https://design-riyadh.sa',
+    canonical: 'https://designalriyadh.vip',
   },
   openGraph: {
     title: 'ديزاين الرياض - خبراء السمكرة والدهان وصيانة السيارات',
     description: 'نقدم خدمات السمكرة والدهان والميكانيكا والتعديل البارد بأعلى جودة مع ضمان 5 سنوات في الرياض.',
-    url: 'https://design-riyadh.sa',
+    url: 'https://designalriyadh.vip',
     siteName: 'ديزاين الرياض',
     images: [
       {
@@ -113,8 +113,8 @@ export default function RootLayout({
     "@type": "AutoRepair",
     "name": "ديزاين الرياض لصيانة السيارات والسمكرة والدهان",
     "image": "https://i.postimg.cc/zvTBzNXw/desinbanar.jpg",
-    "@id": "https://design-riyadh.sa",
-    "url": "https://design-riyadh.sa",
+    "@id": "https://designalriyadh.vip",
+    "url": "https://designalriyadh.vip",
     "telephone": "0504390007",
     "priceRange": "$$",
     "hasMap": "https://maps.app.goo.gl/LLBYi4yGaBtMqJpe7",
