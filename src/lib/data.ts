@@ -1,54 +1,60 @@
-
-import { Wrench, Paintbrush, RefreshCcw, ShieldAlert, Settings, Zap, Thermometer } from 'lucide-react';
+import { Wrench, Paintbrush, RefreshCcw, ShieldAlert, Settings, Zap, Thermometer, ShieldCheck } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 export const services = [
   {
     id: 'bodywork',
-    title: 'سمكرة سيارات',
-    description: 'إصلاح جميع صدمات الهيكل بأحدث التقنيات والمعدات الاحترافية لضمان عودة السيارة لحالتها الأصلية.',
+    title: 'سمكرة سيارات احترافية',
+    description: 'إصلاح جميع صدمات الهيكل بأحدث التقنيات والمعدات الاحترافية. نعد من أفضل مراكز السمكرة في الرياض لإصلاح الصدمات القوية والبسيطة لضمان عودة السيارة لحالتها الأصلية بدقة متناهية.',
     icon: Wrench,
     image: PlaceHolderImages.find(img => img.id === 'service-bodywork')?.imageUrl,
   },
   {
+    id: 'pdr',
+    title: 'تعديل بارد بدون رش (PDR)',
+    description: 'تقنية التعديل البارد (PDR) لإصلاح الصدمات والبرَد بدون الحاجة لرش البوية. نحافظ على صبغة الوكالة الأصلية باستخدام أحدث أدوات شفط الصدمات وتعديل الهيكل بدقة ليزرية.',
+    icon: ShieldCheck,
+    image: PlaceHolderImages.find(img => img.id === 'service-renewal')?.imageUrl, // Using renewal image as placeholder
+  },
+  {
     id: 'painting',
-    title: 'رش بوية فرن',
-    description: 'دهان حراري بأعلى معايير الجودة مع مطابقة الألوان بالكمبيوتر لضمان لمسة نهائية مثالية.',
+    title: 'رش بوية فرن حراري',
+    description: 'دهان حراري (فرن) بأعلى معايير الجودة العالمية مع مطابقة الألوان بالكمبيوتر 100%. نستخدم أفضل أنواع الأصباغ الألمانية لضمان لمسة نهائية مثالية ومقاومة للعوامل الجوية مع ضمان 5 سنوات.',
     icon: Paintbrush,
     image: PlaceHolderImages.find(img => img.id === 'service-painting')?.imageUrl,
   },
   {
     id: 'renewal',
-    title: 'تجديد كامل',
-    description: 'إعادة إحياء وتجديد السيارات القديمة والمتضررة كلياً داخلياً وخارجياً.',
+    title: 'تجديد سيارات كامل',
+    description: 'إعادة إحياء وتجديد السيارات القديمة والمتضررة كلياً داخلياً وخارجياً. خدمات تجديد الصبغة، تلميع المقاصير، وإعادة السيارة وكالة بمواد عالية الجودة وإشراف فنيين مختصين.',
     icon: RefreshCcw,
     image: PlaceHolderImages.find(img => img.id === 'service-renewal')?.imageUrl,
   },
   {
     id: 'airbag',
-    title: 'إصلاح الأيرباق',
-    description: 'فحص وإصلاح وبرمجة أنظمة الأكياس الهوائية (Airbags) لضمان سلامة الركاب.',
+    title: 'إصلاح الأيرباق والبرمجة',
+    description: 'فحص وإصلاح وبرمجة أنظمة الأكياس الهوائية (Airbags) بعد الحوادث. إعادة ضبط حساسات الأمان وتغيير الأغطية المتضررة لضمان سلامة الركاب القصوى وفق معايير المصنع.',
     icon: ShieldAlert,
     image: PlaceHolderImages.find(img => img.id === 'service-airbag')?.imageUrl,
   },
   {
     id: 'mechanic',
-    title: 'ميكانيكا عامة',
-    description: 'صيانة المحركات وناقل الحركة وجميع الأجزاء الميكانيكية بأيدي فنيين متخصصين.',
+    title: 'ميكانيكا سيارات عامة',
+    description: 'صيانة المحركات، ناقل الحركة (الجيربوكس)، وجميع الأجزاء الميكانيكية. توضيب مكائن وجيربوكس بأيدي فنيين متخصصين في السيارات الألماني، الياباني، والكوري في الرياض.',
     icon: Settings,
     image: PlaceHolderImages.find(img => img.id === 'service-mechanic')?.imageUrl,
   },
   {
     id: 'electricity',
-    title: 'كهرباء السيارات',
-    description: 'فحص وتشخيص وإصلاح جميع الأعطال الكهربائية المعقدة وبرمجة الحساسات.',
+    title: 'كهرباء وفحص كمبيوتر',
+    description: 'فحص وتشخيص وإصلاح جميع الأعطال الكهربائية المعقدة وبرمجة الحساسات والكنترولات بأحدث أجهزة الفحص المتطورة لضمان دقة التشخيص وسرعة الإصلاح.',
     icon: Zap,
     image: PlaceHolderImages.find(img => img.id === 'service-electricity')?.imageUrl,
   },
   {
     id: 'ac',
-    title: 'صيانة التكييف',
-    description: 'فحص تسريب الفريون، شحن الفريون الأصلي، وإصلاح الكومبريسور والرديتر.',
+    title: 'صيانة تكييف السيارات',
+    description: 'فحص تسريب الفريون بأحدث الأجهزة، شحن فريون أصلي، وإصلاح الكومبريسور والرديتر لضمان أفضل برودة لمكيف السيارة في أجواء الرياض الحارة.',
     icon: Thermometer,
     image: PlaceHolderImages.find(img => img.id === 'service-ac')?.imageUrl,
   },
@@ -57,19 +63,19 @@ export const services = [
 export const beforeAfterCases = [
   {
     id: 1,
-    title: 'إصلاح صدمة جانبية',
+    title: 'إصلاح صدمة مرسيدس جانبية',
     before: PlaceHolderImages.find(img => img.id === 'ba-1-before')?.imageUrl,
     after: PlaceHolderImages.find(img => img.id === 'ba-1-after')?.imageUrl,
   },
   {
     id: 2,
-    title: 'رش صدام أمامي',
+    title: 'رش صدام لكزس مطابقة 100%',
     before: PlaceHolderImages.find(img => img.id === 'ba-2-before')?.imageUrl,
     after: PlaceHolderImages.find(img => img.id === 'ba-2-after')?.imageUrl,
   },
   {
     id: 3,
-    title: 'تجديد خلفية السيارة',
+    title: 'تجديد خلفية بي ام دبليو (BMW)',
     before: PlaceHolderImages.find(img => img.id === 'ba-3-before')?.imageUrl,
     after: PlaceHolderImages.find(img => img.id === 'ba-3-after')?.imageUrl,
   },
@@ -96,18 +102,18 @@ export const carBrands = [
 
 export const features = [
   {
-    title: 'ضمان 5 سنوات',
-    description: 'نقدم ضماناً حقيقياً لمدة 5 سنوات على جميع أعمال السمكرة والدهان.',
+    title: 'ضمان 5 سنوات معتمد',
+    description: 'نقدم ضماناً حقيقياً لمدة 5 سنوات على جودة الصبغة والسمكرة وعدم تغير اللون، لثقتنا في جودة المواد المستخدمة.',
     icon: '🛡️'
   },
   {
-    title: 'مطابقة ألوان بالكمبيوتر',
-    description: 'نستخدم أحدث أجهزة خلط الألوان لضمان مطابقة لون الوكالة 100%.',
+    title: 'مطابقة ألوان احترافية',
+    description: 'نستخدم أحدث أجهزة خلط الألوان بالكمبيوتر لضمان مطابقة لون وكالة سيارتك بنسبة 100% دون أي فروقات.',
     icon: '🎨'
   },
   {
-    title: 'خدمة سطحة مجانية',
-    description: 'نوفر خدمة سحب السيارة للمركز مجاناً لعملائنا داخل مدينة الرياض.',
+    title: 'خدمة سحب مجانية',
+    description: 'نوفر خدمة سطحة مجانية لسحب السيارة المتعطلة أو المصدومة إلى مركزنا لعملائنا داخل الرياض لتسهيل خدمتكم.',
     icon: '🚚'
   }
 ];
